@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy to Render
-        uses: ./.github/actions/deploy-to-render
+        uses: render-examples/deploy-to-render@v1
         with:
           service_id: ${{ secrets.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
