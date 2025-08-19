@@ -8,4 +8,10 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   }
+  ,
+  "exclude": [
+    "tests",
+    "**/*.test.ts",
+    "**/*.test.js"
+  ]
 }
