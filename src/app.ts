@@ -6,4 +6,8 @@ app.get('/api/time', (_req, res) => {
   res.json({ time: new Date().toISOString() });
 });
 
+app.get('/api/ping', (_req, res) => {
+  res.json({ time: new Date().toISOString() });
+});
+
 export default app;
